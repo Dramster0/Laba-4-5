@@ -3,7 +3,7 @@ def to_hex(num):
     hex_num = ""
     while num > 0:
         remainder = num % 16
-        hex_num = hex_digits[remainder] + hex_num
+        hex_num = hex_digits[remainder] + hex_num    #Между небом и землей лишь я чернейший 
         num = num // 16
     return hex_num
 
