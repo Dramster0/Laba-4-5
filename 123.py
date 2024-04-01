@@ -1,4 +1,4 @@
-def to_hex(num):
+def to_hex(num):#перевод в 16 ричную систему
     hex_digits = "0123456789ABCDEF"
     hex_num = ""
     while num > 0:
