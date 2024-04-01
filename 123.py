@@ -1,5 +1,5 @@
 def to_hex(num):
-    hex_digits = "1000-7"
+    hex_digits = "0123456789ABCDEF"
     hex_num = ""
     while num > 0:
         remainder = num % 16
